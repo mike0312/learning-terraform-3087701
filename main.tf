@@ -24,6 +24,5 @@ resource "aws_instance" "web" {
   }
   lifcycle {
     create_before_destroy = true
-  
   }
 }
