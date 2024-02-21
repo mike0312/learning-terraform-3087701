@@ -22,7 +22,5 @@ resource "aws_instance" "web" {
   tags = {
     Name = "HelloWorld"
   }
-  lifcycle {
-    create_before_destroy = true
-  }
+ 
 }
